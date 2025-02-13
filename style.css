@@ -2,4 +2,98 @@
 
 :root{
     --font1: 'arial', sans-serif;
+    --color-princ: #127369e3;
+    --color-sec: #0d3632;
+    --color-dec1: #8AA6A3;
+    --color-dec2: #4C5958;
+    --color-dec3: #BFBFBF;
+    --color-black: #000;
+    --color-white: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font1);
+}
+
+header{
+    background-color: var(--color-princ);
+    color: var(--color-sec);
+    text-align: center;
+    padding: 1em;
+    text-shadow: 2px 2px 2px var(--color-princ);
+}
+
+header > h1{
+    font-size: 3em;
+}
+
+nav, h2{
+    padding-top: 10px;
+    text-align: left;
+}
+
+nav > a{
+    color: var(--color-sec);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+nav > a:hover{
+    color: var(--color-dec1);
+    text-decoration: underline;
+    background-color: var(--color-sec);
+    text-shadow: 1px 1px 1px var(--color-black);
+    border-radius: 8px;
+}
+
+main{
+    padding: 1em;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+caption{
+    font-size: 1.5em;
+    color: var(--color-sec);
+    padding: 10px;
+    text-shadow: 1px 1px 1px var(--color-sec);
+}
+
+td, th{
+    border: 1px solid var(--color-dec1);
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: var(--color-dec3);
+}
+
+footer{
+    background-color: var(--color-princ);
+    color: var(--color-sec);
+    text-align: center;
+    padding: 1vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-shadow: 1px 1px 1px var(--color-princ);
+}
+
+footer > a{
+    color: var(--color-sec);
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+footer > a:hover{
+    color: var(--color-dec1);
+    text-shadow: 1px 1px 1px var(--color-black);
 }
