@@ -41,11 +41,8 @@ nav > a{
 }
 
 nav > a:hover{
-    color: var(--color-dec1);
     text-decoration: underline;
-    background-color: var(--color-sec);
     text-shadow: 1px 1px 1px var(--color-black);
-    border-radius: 8px;
 }
 
 main{
@@ -95,6 +92,6 @@ footer > a{
 }
 
 footer > a:hover{
-    color: var(--color-dec1);
+    text-decoration: underline;
     text-shadow: 1px 1px 1px var(--color-black);
 }
