@@ -77,6 +77,17 @@ tr:nth-child(even){
     background-color: var(--color-dec3);
 }
 
+.importante{
+    font-weight: bolder;
+    color: var(--color-princ);
+    text-shadow: 1px 1px 1px var(--color-princ);
+}
+
+.underline{
+    text-decoration: underline var(--color-princ);
+    text-shadow: 1px 1px 1px var(--color-dec1);
+}
+
 footer{
     background-color: var(--color-princ);
     color: var(--color-sec);
